@@ -7,6 +7,12 @@
     },
     "extends": ["eslint:recommended", "plugin:react/recommended"],
     "parser": "@babel/eslint-parser",
+    "parserOptions": {
+       "requireConfigFile" : "false" 
+    }, 
+    "babelOptions": {
+       "configFile": "./babel.config.js"
+    },
     "env": {
       "browser": true
     },
